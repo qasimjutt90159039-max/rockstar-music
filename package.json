@@ -1,0 +1,24 @@
+{
+  "name": "rockstar-musical-instruments-shop",
+  "version": "1.0.0",
+  "description": "Production-ready e-commerce store for Rockstar Musical Instruments Shop, Multan, Pakistan",
+  "scripts": {
+    "server": "npm run start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "seed": "npm run seed --prefix server"
+  },
+  "keywords": [
+    "musical-instruments",
+    "e-commerce",
+    "react",
+    "vite",
+    "tailwind",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Rockstar Musical Instruments Shop",
+  "license": "ISC"
+}
