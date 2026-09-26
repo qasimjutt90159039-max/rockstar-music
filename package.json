@@ -2,6 +2,11 @@
   "name": "rockstar-musical-instruments-shop",
   "version": "1.0.0",
   "description": "Production-ready e-commerce store for Rockstar Musical Instruments Shop, Multan, Pakistan",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
     "build": "cd client && npm install && npm run build",
     "server": "npm run start --prefix server",
